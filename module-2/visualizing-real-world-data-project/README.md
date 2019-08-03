@@ -4,7 +4,7 @@
 
 ## Project link
 
-**03/08**: Project demo is now available in https://github.com/lozgarrido/waka
+Project demo is now available in https://github.com/lozgarrido/waka
 
 ## Overview
 
