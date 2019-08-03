@@ -2,13 +2,15 @@
 
 # Guided Project: Visualizing Real World Data
 
+## Project link
+
+**03/08**: Project demo is now available in https://github.com/lozgarrido/waka
+
 ## Overview
 
 The goal of this project is to practice creating and interpreting different types of visualizations using real world data.
 
 **You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. 
-
----
 
 ## Technical Requirements
 
