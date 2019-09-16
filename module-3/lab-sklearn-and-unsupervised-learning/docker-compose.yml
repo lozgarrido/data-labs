@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    notebook:
+        image: javierluna/ironhack-data:latest
+        ports:
+            - "8888:8888"
+        volumes:
+            - .:/ironhack-data
+        networks:
+            - notebook-network
+
+networks:
+    notebook-network:
