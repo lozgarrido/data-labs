@@ -1,0 +1,1466 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0818.2120                               -->
+<workbook source-build='2019.2.3 (20192.19.0818.2120)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' inline='true' name='federated.1j52vo41cak1b6106rsik1nt1rm4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nfl_football_team_stats' name='excel-direct.0esowob151wun415bv8on0ial1q5'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/carlos/Code/Resources/Tableau/Data Sources/nfl_football_team_stats.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0esowob151wun415bv8on0ial1q5' name='Hoja 1 - nfl_football_team_stat' table='[&apos;Hoja 1 - nfl_football_team_stat$&apos;]' type='table'>
+          <columns gridOrigin='A1:AP4095:no:A1:AP4095:1' header='yes' lost='0' outcome='1' processed='151441'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='integer' name='GameNumber' ordinal='2' />
+            <column datatype='string' name='GameLocation' ordinal='3' />
+            <column datatype='string' name='Team' ordinal='4' />
+            <column datatype='integer' name='TeamScore' ordinal='5' />
+            <column datatype='string' name='Opponent' ordinal='6' />
+            <column datatype='integer' name='OppponentScore' ordinal='7' />
+            <column datatype='string' name='Result' ordinal='8' />
+            <column datatype='integer' name='PassingAttempts' ordinal='9' />
+            <column datatype='integer' name='PassingCompletions' ordinal='10' />
+            <column datatype='integer' name='PassingInterceptions' ordinal='11' />
+            <column datatype='integer' name='PasserRating' ordinal='12' />
+            <column datatype='integer' name='PassingSacks' ordinal='13' />
+            <column datatype='integer' name='PassingSacksYardsLost' ordinal='14' />
+            <column datatype='integer' name='PassingTouchdowns' ordinal='15' />
+            <column datatype='integer' name='PassingYards' ordinal='16' />
+            <column datatype='integer' name='ReceivingReceptions' ordinal='17' />
+            <column datatype='integer' name='ReceivingTargets' ordinal='18' />
+            <column datatype='integer' name='ReceivingTouchdowns' ordinal='19' />
+            <column datatype='integer' name='ReceivingYards' ordinal='20' />
+            <column datatype='integer' name='RushingAttempts' ordinal='21' />
+            <column datatype='integer' name='RushingTouchdowns' ordinal='22' />
+            <column datatype='integer' name='RushingYards' ordinal='23' />
+            <column datatype='integer' name='DefenseTackes' ordinal='24' />
+            <column datatype='integer' name='DefenseTackleAssists' ordinal='25' />
+            <column datatype='integer' name='DefenseSacks' ordinal='26' />
+            <column datatype='integer' name='DefenseSafeties' ordinal='27' />
+            <column datatype='integer' name='DefenseInterceptions' ordinal='28' />
+            <column datatype='integer' name='DefenseInterceptionYards' ordinal='29' />
+            <column datatype='integer' name='DefenseInterceptionTouchdowns' ordinal='30' />
+            <column datatype='integer' name='KickReturnAttempts' ordinal='31' />
+            <column datatype='integer' name='KickReturnTouchdowns' ordinal='32' />
+            <column datatype='integer' name='KickReturnYards' ordinal='33' />
+            <column datatype='integer' name='PuntReturnAttempts' ordinal='34' />
+            <column datatype='integer' name='PuntReturnTouchdowns' ordinal='35' />
+            <column datatype='integer' name='PuntReturnYards' ordinal='36' />
+            <column datatype='integer' name='FieldGoalAttempts' ordinal='37' />
+            <column datatype='integer' name='FieldGoals' ordinal='38' />
+            <column datatype='integer' name='PuntingAttempts' ordinal='39' />
+            <column datatype='integer' name='PuntsBlocked' ordinal='40' />
+            <column datatype='integer' name='PuntingYards' ordinal='41' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GameNumber]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>GameNumber</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GameLocation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GameLocation]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>GameLocation</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TeamScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TeamScore]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>TeamScore</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opponent</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Opponent]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>Opponent</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OppponentScore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OppponentScore]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>OppponentScore</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Result</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Result]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>Result</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingAttempts</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingCompletions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingCompletions]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingCompletions</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingInterceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingInterceptions]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingInterceptions</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PasserRating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PasserRating]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PasserRating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingSacks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingSacks]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingSacks</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingSacksYardsLost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingSacksYardsLost]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingSacksYardsLost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingTouchdowns</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PassingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PassingYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PassingYards</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingReceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingReceptions]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>ReceivingReceptions</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingTargets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingTargets]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>ReceivingTargets</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>ReceivingTouchdowns</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReceivingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReceivingYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>ReceivingYards</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>RushingAttempts</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>RushingTouchdowns</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RushingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RushingYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>RushingYards</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseTackes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseTackes]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseTackes</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseTackleAssists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseTackleAssists]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseTackleAssists</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseSacks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseSacks]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseSacks</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseSafeties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseSafeties]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseSafeties</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptions]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseInterceptions</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptionYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptionYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseInterceptionYards</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DefenseInterceptionTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DefenseInterceptionTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>DefenseInterceptionTouchdowns</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>KickReturnAttempts</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>KickReturnTouchdowns</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>KickReturnYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[KickReturnYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>KickReturnYards</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntReturnAttempts</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnTouchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnTouchdowns]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntReturnTouchdowns</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntReturnYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntReturnYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntReturnYards</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FieldGoalAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FieldGoalAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>FieldGoalAttempts</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FieldGoals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FieldGoals]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>FieldGoals</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntingAttempts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntingAttempts]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntingAttempts</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntsBlocked</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntsBlocked]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntsBlocked</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PuntingYards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PuntingYards]</local-name>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias>PuntingYards</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hoja 1 - nfl_football_team_stat]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP4095:no:A1:AP4095:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>151441</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CompletionPercentage' datatype='real' name='[Calculation_250512764491988992]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PassingCompletions]/[PassingAttempts]' />
+      </column>
+      <column caption='MatchesNumber' datatype='real' name='[Calculation_286611926053736450]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Number of Records]/2' />
+      </column>
+      <column datatype='integer' name='[DefenseInterceptions]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[DefenseSacks]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='OpponentScore' datatype='integer' name='[OppponentScore]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+      <column-instance column='[DefenseInterceptions]' derivation='Avg' name='[avg:DefenseInterceptions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DefenseSacks]' derivation='Avg' name='[avg:DefenseSacks:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+      <column-instance column='[DefenseInterceptions]' derivation='Sum' name='[sum:DefenseInterceptions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DefenseSacks]' derivation='Sum' name='[sum:DefenseSacks:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.173759' measure-ordering='alphabetic' measure-percentage='0.826241' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Result:nk]' type='palette'>
+            <map to='#305d8a'>
+              <bucket>&quot;Win&quot;</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>&quot;Loss&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseInterceptions:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:DefenseInterceptions:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseSacks:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:DefenseSacks:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='2016 Passings Ratio'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column caption='CompletionPercentage' datatype='real' name='[Calculation_250512764491988992]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PassingCompletions]/[PassingAttempts]' />
+            </column>
+            <column datatype='integer' name='[PassingAttempts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[PassingCompletions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[PuntingAttempts]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_250512764491988992]' derivation='Avg' name='[avg:Calculation_250512764491988992:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PassingAttempts]' derivation='Sum' name='[sum:PassingAttempts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PassingCompletions]' derivation='Sum' name='[sum:PassingCompletions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PuntingAttempts]' derivation='Sum' name='[sum:PuntingAttempts:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingCompletions:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingAttempts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingCompletions:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingAttempts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PuntingAttempts:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]'>
+            <groupfilter function='member' level='[none:Year:ok]' member='2016' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1j52vo41cak1b6106rsik1nt1rm4].[:Measure Names]</column>
+            <column>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingCompletions:qk]' value='N' />
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PuntingAttempts:qk]' value='N' />
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingAttempts:qk]' value='N' />
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:PassingAttempts:qk]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]</rows>
+        <cols>[federated.1j52vo41cak1b6106rsik1nt1rm4].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{BFC76C72-24AF-4959-A2D0-F0097748B81F}' />
+    </worksheet>
+    <worksheet name='Defensive Effectiveness'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column datatype='string' name='[Opponent]' role='dimension' type='nominal' />
+            <column caption='OpponentScore' datatype='integer' name='[OppponentScore]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[OppponentScore]' derivation='Avg' name='[avg:OppponentScore:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Opponent]' derivation='None' name='[none:Opponent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Opponent:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:OppponentScore:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:OppponentScore:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:OppponentScore:qk]</rows>
+        <cols>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]</cols>
+      </table>
+      <simple-id uuid='{5ACA9295-6724-4F8A-AADD-FE28E76D74DA}' />
+    </worksheet>
+    <worksheet name='Defensive Stats'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column datatype='integer' name='[DefenseInterceptions]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DefenseSacks]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DefenseSafeties]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[DefenseInterceptions]' derivation='Avg' name='[avg:DefenseInterceptions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseSacks]' derivation='Avg' name='[avg:DefenseSacks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DefenseSafeties]' derivation='Avg' name='[avg:DefenseSafeties:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Result:nk]'>
+            <groupfilter function='member' level='[none:Result:nk]' member='&quot;Win&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Result:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseSafeties:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseInterceptions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseSacks:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]</rows>
+        <cols>([federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseSafeties:qk] + ([federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseInterceptions:qk] + [federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:DefenseSacks:qk]))</cols>
+      </table>
+      <simple-id uuid='{B58F556D-F7BB-4E76-9342-D6B3808399D2}' />
+    </worksheet>
+    <worksheet name='Games per Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column caption='MatchesNumber' datatype='real' name='[Calculation_286611926053736450]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Number of Records]/2' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_286611926053736450]' derivation='Sum' name='[sum:Calculation_286611926053736450:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:Calculation_286611926053736450:qk]</rows>
+        <cols>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{6B3FCD1B-9CA1-4127-A37D-865CFB7B02D9}' />
+    </worksheet>
+    <worksheet name='Home/Away'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column datatype='string' name='[GameLocation]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+            <column-instance column='[GameLocation]' derivation='None' name='[none:GameLocation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:GameLocation:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:GameLocation:nk]' member='&quot;Away&quot;' />
+              <groupfilter function='member' level='[none:GameLocation:nk]' member='&quot;Home&quot;' />
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:GameLocation:nk]' direction='DESC' />
+          <slices>
+            <column>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:GameLocation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Result:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:Number of Records:qk]</rows>
+        <cols>([federated.1j52vo41cak1b6106rsik1nt1rm4].[none:GameLocation:nk] / [federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Result:nk])</cols>
+      </table>
+      <simple-id uuid='{CAFFEA8B-D266-4036-88FF-3E186575A89E}' />
+    </worksheet>
+    <worksheet name='Offense/Defense'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column caption='OpponentScore' datatype='integer' name='[OppponentScore]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[TeamScore]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column-instance column='[OppponentScore]' derivation='Avg' name='[avg:OppponentScore:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TeamScore]' derivation='Avg' name='[avg:TeamScore:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:OppponentScore:qk]' field-type='quantitative' min='16.0' range-type='fixedmin' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:TeamScore:qk]' field-type='quantitative' min='16.0' range-type='fixedmin' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:TeamScore:qk]</rows>
+        <cols>[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:OppponentScore:qk]</cols>
+      </table>
+      <simple-id uuid='{7AB6F68B-D35E-4075-8178-B02290CAA2DC}' />
+    </worksheet>
+    <worksheet name='Passings Ratio per Year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>Sheet Name</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column caption='CompletionPercentage' datatype='real' name='[Calculation_250512764491988992]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PassingCompletions]/[PassingAttempts]' />
+            </column>
+            <column datatype='integer' name='[PassingAttempts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[PassingCompletions]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_250512764491988992]' derivation='Avg' name='[avg:Calculation_250512764491988992:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]'>
+            <groupfilter function='member' level='[none:Year:ok]' member='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' />
+              <color column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' />
+              <text column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DA2B450C-6FEA-4015-919F-E4FB694DDE90}' />
+    </worksheet>
+    <worksheet name='Win/Lose'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hoja 1 - nfl_football_team_stat (nfl_football_team_stats)' name='federated.1j52vo41cak1b6106rsik1nt1rm4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1j52vo41cak1b6106rsik1nt1rm4'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Result]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Team]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Result]' derivation='None' name='[none:Result:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Team]' derivation='None' name='[none:Team:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Result:nk]' />
+              <wedge-size column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:Number of Records:qk]' />
+              <size column='[federated.1j52vo41cak1b6106rsik1nt1rm4].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]</rows>
+        <cols>[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Team:nk]</cols>
+      </table>
+      <simple-id uuid='{B6475D89-4717-41EC-98DC-BDD7AF9BB3F6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97916' id='3' name='Offense/Defense' w='49414' x='586' y='1042'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24479' id='5' name='Defensive Stats' w='49414' x='50000' y='1042'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='48958' id='6' name='Defensive Effectiveness' w='49414' x='50000' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24479' id='7' name='Win/Lose' w='49414' x='50000' y='25521'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='1' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='2' param='vert' type='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DD142DF5-4C27-43A5-A50C-9D1B4F93921E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Games per Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{259875A1-AEC1-4481-ADF2-20E2DC7B8F1D}' />
+    </window>
+    <window class='worksheet' name='Win/Lose'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-height' />
+      </viewpoint>
+      <simple-id uuid='{183597E3-0B66-4F8B-9DDE-06EEE3B8BA67}' />
+    </window>
+    <window class='worksheet' name='Home/Away'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{492D4F42-7591-4CC3-A6EC-ACCD1955B982}' />
+    </window>
+    <window class='worksheet' name='Offense/Defense'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B0CB830C-DFC1-445A-B283-46364508AD18}' />
+    </window>
+    <window class='worksheet' name='2016 Passings Ratio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{41D49E42-E488-47AF-BB5D-E7D1AAB308D9}' />
+    </window>
+    <window class='worksheet' name='Passings Ratio per Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.1j52vo41cak1b6106rsik1nt1rm4].[avg:Calculation_250512764491988992:qk]' type='color' />
+            <card param='[federated.1j52vo41cak1b6106rsik1nt1rm4].[none:Year:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DCE838E5-D281-4B3A-BEB0-D8EA49B3C4F7}' />
+    </window>
+    <window class='worksheet' name='Defensive Stats'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{34139924-A6DD-454C-8176-A4730BE6E6D4}' />
+    </window>
+    <window class='worksheet' name='Defensive Effectiveness'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3C7CF1B0-1FA1-4168-A4E5-969989542449}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Defensive Effectiveness'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Defensive Stats'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Offense/Defense'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Win/Lose'>
+          <zoom type='fit-height' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{3D40432F-D26C-47B3-9384-1993AA99C543}' />
+    </window>
+  </windows>
+</workbook>
